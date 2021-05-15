@@ -3,7 +3,7 @@
     <div class="row pt-5">
     <% @post.each do |i| %> 
       <div class="card col-3 mt-3 mx-2">
-        <a><img src="<%=i.image_url%>" class="card-img-top" alt="noticia1"></a>
+        <a><img src="<%=i.image_url%>" class="card-img-top img-fluid" alt="noticia1"></a>
         <div class="card-body">
           <h5 class="card-title"><%=i.title%></h5>
           <p class="card-text"><%=i.content%></p>
